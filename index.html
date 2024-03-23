@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animated Navbar</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="button.css">
 </head>
 <body>
   <nav>
@@ -27,7 +28,18 @@
       
     </div>
   </nav>
-
+<div class="dropdown">
+        <button onclick="toggleDropdown()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content" style="display: none">
+                <ul>
+                        <li><a href="#">dairect down</a></li>
+                        <li><a href="#">button</a></li>
+                        <li><a href="#">button 5s</a></li>
+                </ul>
+        </div>
+</div>
+  
   <h1>Homepage</h1>
 </body>
+ <script src="button.js">2</script>
 </html>
