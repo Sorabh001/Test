@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+.box{
+	height: 30px;
+	background-color: white;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	border: 1px solid black;
+}
+.main-box{
+        width: 100%;
+        height: 90.7vh;
+}
+  .container {
+  width: 80vmin;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 120px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.box > i {
+	font-size: 20px;
+	color: #777;
+}
+
+.box > input{
+	flex: 1;
+	height: 4ppx;
+	border: none;
+	outline: none; 
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+    #embedContainer {
+        margin-top: 20px;
+        height: 360px;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+    }
+
+    #outputBox {
+        width: 100%;
+        margin-top: 20px;
+        height: 60px;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+    }
+
+    .button-container {
+        text-align: center;
+    }
+
+    .button {
+    /*    display: inline-block; 
+        width: auto;*/
+        width:100%;
+        padding: 10px 20px;
+        margin-top: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background-color: #0056b3;
+    }
+
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        font-size: 16px;
+    }
+
+    select:focus {
+        outline: none;
+        border-color: #007bff;
+    }
+
+    .select-option {
+        background-color: #fff;
+        color: #333;
+        font-size: 16px;
+        padding: 8px 12px; /* Adjust padding as needed */
+    }
+
+    .select-option:hover {
+        background-color: #f0f0f0;
+    }
+   
+    @media only screen and (max-width: 600px) {
+        .container {
+            padding: 10px;
+        }
+    }
+    
+.main-box{
+        width: 100%;
+        height: 90.7vh;
+}
+  .container {
+  width: 80vmin;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 120px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.box > i {
+	font-size: 20px;
+	color: #777;
+}
+
+.box > input{
+	flex: 1;
+	height: 4ppx;
+	border: none;
+	outline: none; 
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+    #embedContainer {
+        margin-top: 20px;
+        height: 360px;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+    }
+
+    #outputBox {
+        width: 100%;
+        margin-top: 20px;
+        height: 60px;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+    }
+
+    .button-container {
+        text-align: center;
+    }
+
+    .button {
+    /*    display: inline-block; 
+        width: auto;*/
+        width:100%;
+        padding: 10px 20px;
+        margin-top: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background-color: #0056b3;
+    }
+
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        font-size: 16px;
+    }
+
+    select:focus {
+        outline: none;
+        border-color: #007bff;
+    }
+
+    .select-option {
+        background-color: #fff;
+        color: #333;
+        font-size: 16px;
+        padding: 8px 12px; /* Adjust padding as needed */
+    }
+
+    .select-option:hover {
+        background-color: #f0f0f0;
+    }
+   
+    @media only screen and (max-width: 600px) {
+        .container {
+            padding: 10px;
+        }
+    }
+    
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+  }
+
+  .content {
+    padding: 60px 20px 60px;
+    box-sizing: border-box;
+  }
+
+  .footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    padding: 1px;
+    box-sizing: border-box;
+    z-index: 1000;
+    border-top: 2px solid rgba(0, 0, 0, 0.25);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+}
+.footer  a{
+   text-decoration: none;
+   color: #B31F71;
+   font-weight: bold;
+   cursor: pointer;
+}
+.footer p{
+        padding: 1px 10px;
+        font-weight: bold;
+        font-style: italic;
+}
+
+  nav{
+  height: 60px;
+  margin-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  font-style: italic;
+}
+.links-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+nav a{
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+nav a:hover{
+  background-color: var(--accent-color);
+}
+nav .home-link{
+  margin-right: auto;
+}
+nav svg{
+  fill: #FFFFFF;
+}
+#sidebar-active{
+  display: none;
+}
+.open-sidebar-button, .close-sidebar-button{
+  display: none;
+}
+@keyframes colorChange {
+ 0% { color: blue; }
+ 50% { color: red; }
+ 100% { color: blue; }
+}
+#foofer-a {
+animation: colorChange 2s infinite alternate;
+}
+@media(max-width: 450px){
+  .links-container{
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 10;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+    transition: 0.75s ease-out;
+    
+  }
+  nav a{
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    padding: 20px 30px;
+    justify-content: flex-start;
+  }
+  .open-sidebar-button, .close-sidebar-button{
+    padding: 20px;
+    display: block;
+  }
+  #sidebar-active:checked ~ .links-container{
+    right: 0;
+  }
+  #sidebar-active:checked ~ #overlay{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+  .main-box{
+        width: 100%;
+        height: 78.7vh;
+}
+}
